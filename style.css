@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box__2 {
+  text-align: left;
+  background-color: #efefef;
+}
+
+.box {
+  padding: 1em;
+  text-align: left;
+  background-color: #efefef;
+  /* Our Grid Code 
+  color: #fff;
+  */
+}
+
+/* Our Grid Code */
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5vh 30vh 22vh 22vh 27vh 40vh 27vh 20vh 35vh 30vh 40vh 20vh;
+}
+
+.content1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30vh 30vh;
+}
+
+.post2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30vh 30vh;
+}
+
+.rekomendasi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30vh;
+}
+
+.populer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30vh;
+}
+
+.slider {
+  display: grid;
+  grid-column: 1fr;
+  grid-template-rows: 30vh;
+}
+
+img {
+  object-fit: cover;
+  width: 100%
+  max-height: 100%;
+}
+
+.logo {
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.search{
+  float:right; 
+  position:relative;
+}
+
+.search_bar{display:inline; height:45px; padding:10px; position:absolute; right:0; top:52px; width:250px; display:none}
+
+.search_icon{
+  content:url("img/search_icon.png");
+  background:none repeat scroll 0 0 #f2f2f2; 
+  display:block; float:right; height:30px; line-height:30px; text-align:center; width:30px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  max-width: 500px;
+  margin: 0px auto;
+  background: #009999;
+  font-family: 'light', sans-serif;
+  color: white;
+}
+
+.tab-content {
+  max-width: 0px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.owl-controls {
+  display: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 10px;
+  white-space: nowrap;
+  transition: all 0.3s ease-in;
+  border-bottom: 4px solid transparent;
+}
+
+li:hover {
+  border-bottom: 4px solid #66cccc;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.tab-content > div {
+  display: block;
+  margin: 0px auto;
+}
+
+.tab-content > div.active {
+  display: block;
+}
